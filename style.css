@@ -1,0 +1,102 @@
+:root{
+    --color-1 : rgb(33, 37, 41);
+    --color-2 : rgb(52, 58, 64);
+    --color-3 : rgb(73, 80, 87);
+    --color-4 : rgb(108, 117, 125);
+    --color-5 : rgb(206, 212, 218);
+    --color-6 : rgb(233, 236, 239);
+}
+
+body{
+    margin: 0rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--color-1);
+}
+
+header{
+    background-color: var(--color-2);
+    padding: .5rem 0rem 1rem;
+}
+
+header h1{
+    color: var(--color-5);
+    text-align: center;
+    margin: 0rem;
+}
+
+.card{
+    text-align: center;
+    background-color: var(--color-4);
+    color: black;
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+
+.card img{
+    width: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.card h2{
+    margin: .3rem 0px;
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+#question{
+    color: var(--color-6);
+}
+
+label{
+    font-size: 20px;
+    color: var(--color-5);
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    width: 15rem;
+    height: 2rem;
+    border-radius: .7rem;
+    border: none;
+    margin: .2rem;
+    padding-top: .4rem ;
+    background-color: var(--color-3);
+}
+
+button{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Quicksand', sans-serif;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: .2rem;
+    border: none;
+    margin-top: 3rem;
+    background-color: var(--color-3);
+}
+
+button:hover{
+    transform: scale(1.1);transition: .5s;
+}
+
+button:active{
+    background-color: var(--color-4)
+}
+
+ul{
+    margin: auto;
+    width: 18rem;
+    list-style-type: none;
+}
+
+input{
+    visibility: hidden;
+}
+
+input:checked + label{
+    background-color: var(--color-4);
+}
+
